@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		p, div {
+			width: 200px;
+			height: 100px;
+		}
+		#ex1 {
+			background-color: aqua;
+		}
+		#ex2 {
+			background-color: yellow;
+			position: relative;
+			left: 50px;
+			top: 30px;
+		}
+		#ex3 {
+			background-color: lime;
+		}
+		#container {
+			background-color: gray;
+		}
+		img {
+			width: 300px;
+			position: absolute;
+			top: 500px;
+			z-index: -1;
+		}
+		img+p {
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<h1>position 연습</h1>
+	<p id="ex1">블럭1</p>
+	<div id="container">
+		<div id="ex2">블럭2(position)</div>
+	</div>
+	<p id="ex3">블럭3</p>
+	
+	<h1>z-index 연습</h1>
+	<img src="../../images/KakaoTalk_20210302_121419716.jpg" alt="뭐임마">
+	<p id="ex4">안뇽하시오 반갑습니다. </p>
+
+
+
+</body>
+</html>
