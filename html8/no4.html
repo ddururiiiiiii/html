@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+
+	<h3>
+	문제4. 다중 for문을 이용해서 1~ 10 까지 중   
+    i와 k의 더한 합이 3의 배수일때만 출력 continue를 이용
+	</h3>
+	
+	<script>
+
+	for (var i = 1; i <= 10; i++){
+		for (var k = 1; k <= 10; k++){
+			if( ( i + k ) % 3 != 0){
+				continue;
+			}
+			document.write(i + "," + k + "<br>");
+		}
+	}
+		
+	</script>
+	
+
+
+</body>
+</html>

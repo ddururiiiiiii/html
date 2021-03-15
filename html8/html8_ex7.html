@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+	<title>배열 정의</title>
+</head>
+<body>
+	<script type="text/javascript">
+	//배열 정의 방법1 : 이방법이 더 빠름, 많이 쓰는 방법임.
+		var fruits1 = ["사과", "배", "포도"]; 
+	
+	//배열 정의 방법2	
+	var fruits2 = new Array("사과", "배", "포도"); 
+	
+	//배열 정의 방법3
+	var fruits3 = new Array(); 
+	fruits3[0] = "사과";
+	fruits3[1] = "배";
+	fruits3[2] = "포도";
+	
+	 for (var i = 0; i < fruits3.length; i++) {
+		 // fruits3[i]
+		 document.write(fruits3[i] + "<br>");
+	 }
+	
+	 <hr>
+   
+   <script type="text/javascript">
+      var grade = prompt("성적을 입력하시오 : ", "A-F사이의 문자로");
+      
+      switch(grade){
+         case'A':alert("잘했어요!");
+         break;
+         case'B':alert("좋은 점수군요");
+         break;  
+         case'C':alert("괜찮은 점수군요");
+         break;
+         case'D':alert("좀더 노력하세요");
+         break;
+         case'F':alert("노력하세요 제발!");
+         break;
+         default:alert("알수없는 학점입니다.")
+            
+      }
+   </script>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	</script>
+
+
+
+
+
+</body>
+</html>

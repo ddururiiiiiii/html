@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+    var num1 = prompt("첫번째 숫자를 입력하세요.", "예) 25");
+	var num2 = prompt("두번째 숫자를 입력하세요", "예) 8");
+	
+	var result = parseInt(num1) + parseInt(num2);
+	
+	
+	if (parseInt(result) == 0){
+		document.write("프로그램을 종료 합니다.");	
+	} else if (parseInt(result) > 0 && parseInt(result) < 100){	
+		document.write("합계가 100보다 작습니다.");	
+	} else if (parseInt(result) >= 100){
+		document.write(result);	
+		}
+
+	</script>
+
+</body>
+</html>

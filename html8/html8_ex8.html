@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+<meta charset="UTF-8">
+<title>리턴값..</title>
+</head>
+
+<script>
+	function sub(a, b) {
+		return a + b;
+	}
+	window.onload = function() {
+		document.getElementById("a").innerHTML = sub(4, 5);
+		var result = confirm("컨펌메시지 입니다."); //확인, 취소 버튼이 있는 창이 나옴.
+		document.getElementById("a").innerHTML = result; //true 값으로 리턴됨~~
+	}
+</script>
+
+<body>
+	<p id="a"></p>
+	<p id="tmp"></p>
+
+
+
+
+
+</body>
+</html>
