@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JOIN</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:
+		wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+<style>
+		body {
+			font-family: "Noto Sans KR", sans-serif;
+			background-color: #036fbc;
+		}
+		.input {
+			width: 180px;
+		}
+		form {
+			margin: 30px;
+			background-color: white;
+			padding: 30px;
+		}
+		#logo {
+			width: 150px;
+			height: auto;
+		}
+		.button {
+			background-color: #036fbc;
+			color: white;
+			font-size: 16px;
+			border: 0px;
+			border-radius: 15px;
+			width: 100px;
+			height: 25px;
+			margin-bottom: 3px;
+		}
+</style>
+
+
+</head>
+<body>
+	<haeder>
+		<img src="../images/logo.png" id="logo" alt="메인로고">
+	</haeder>
+	<form>
+		 <h3>JOIN</h3>
+		<table>
+			<tr>
+				<td>아이디</td>
+				<td>
+				<input type="text" class="input" name="id" placeholder="ID입력">
+				<button type="button" class="button">중복검사</button>
+				</td>
+			</tr>
+			<tr>
+				<td>패스워드</td>
+				<td><input type="password" class="input" name="password" placeholder="비밀번호 입력"></td>
+			</tr>
+			<tr>
+				<td>패스워드 확인</td>
+				<td><input type="password" class="input" name="repassword" placeholder="비밀번호 재입력"></td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td><input type="text" class="input" name="name" placeholder="이름 입력"></td>
+			</tr>
+			<tr>
+				<td>휴대폰번호</td>
+				<td><input type="tel" class="input" name="tel" placeholder="휴대폰번호 입력"></td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td><input type="email" class="input" name="mail" placeholder="이메일 입력"></td>
+			</tr>
+			<tr>
+				<td>생일</td>
+				<td><input type="date" class="input" name="birth"></td>
+			</tr>
+			<tr>
+				<td>홈페이지</td>
+				<td><input type="text" class="input" name="site" placeholder="홈페이지 입력"></td>
+			</tr>
+			<tr>
+				<td>
+				<input type="radio" name="gender" id="female" value="female">
+				<label for="female">여성</label>
+				</td>
+				<td>
+				<input type="radio" name="gender" id="male" value="male">
+				<label for="male">남성</label>
+				</td>
+			</tr>
+		</table>			
+		<button type="submit" class="button">JOIN</button>
+		<input type="reset" class="button" name="reset" value="RESET"><br>
+
+    </form>
+
+
+
+</body>
+</html>

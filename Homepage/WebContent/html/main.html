@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>My Favorite</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:
+			wght@100;300;400;500;700;900&amp;display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="mystyle.css" type="text/css">
+	<script type="text/javascript" src="myjs.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header2>
+			<a href="https://www.instagram.com/" target="_blank" class="a_img">
+				<img src="../images/insta_logo.png" class="header_img" alt="인스타그램">
+			</a>&nbsp
+			<a href="https://github.com/" target="_blank" class="a_img">			
+				<img src="../images/github_logo.png" class="header_img" alt="깃허브">
+			</a>&nbsp
+			<a href="https://www.tistory.com/" target="_blank" class="a_img">			
+				<img src="../images/tistory_logo.png" class="header_img" alt="티스토리">
+			</a>
+		</header2>
+		<header>
+			<a href="main.html" target="_self" ><img src="../images/logo.png" id="logo" alt="로고"></a>
+		</header>	
+		<nav>
+			<ul id="nav_list">
+				<li class="menu"><a href="main.html" target="_self" class="a_nav">H O M E</a></li>
+				<li class="menu"><a href="main.html" target="_self" class="a_nav">D I A R Y</a></li>
+				<li class="menu"><a href="main.html" target="_self" class="a_nav">B O A R D</a></li>
+				<li class="menu"><a href="main.html" target="_self" class="a_nav">G U E S T</a></li>
+			</ul>
+		</nav>
+		<nav2>
+			<img src="../images/movie_image.png" class="nav2_img" alt="메뉴이미지">
+		</nav2>	
+		<aside id="left">
+			<h3>My favorite</h3>
+			<ul id="aside_left">
+				<li class="category"><a href="food.html" target="main" class="a_link">FOOD</a></li>
+				<li class="category"><a href="music.html" target="main" class="a_link">MUSIC</a></li>
+				<li class="category"><a href="movie.html" target="main" class="a_link">MOVIE</a></li>
+				<li class="category"><a href="book.html" target="main" class="a_link">BOOK</a></li>
+				<li class="category"><a href="hobby.html" target="main" class="a_link">HOBBY</a></li>
+				<li class="category"><a href="etc.html" target="main" class="a_link">ETC</a></li>
+			</ul>
+		</aside>
+		<section>
+			<iframe src="index.html" name="main"></iframe>
+		</section>
+		<aside id="right">
+			<div id="shopcart">
+				현재 당신의 취향카트에 물품이 없습니다.<br> <a href="shopcart.html" class="a_link">취향카드보기</a>
+			</div>
+			<div id="login">
+				<form>
+					<h4>LOGIN</h4>
+					<table>
+						<tr>
+							<td>ID</td>
+							<td><input type="text" class="input" name="id" placeholder="ID"></td>
+						</tr>
+						<tr>
+							<td>PW</td>
+							<td><input type="password" class="input" name="password" placeholder="PASSWORD"></td>
+						</tr>
+					</table>
+					<input type="checkbox" name="checkbox" id="checkbox" value="checkbox">
+					<label for="checkbox">아이디저장</label><br>
+					<input type="submit" class="button" name="submit" value="LOGIN"><br>
+					<input type="reset" class="button" name="reset" value="RESET"><br>
+					<a href="register.html" class="a_link" target="_blank">JOIN</a>
+					<a class="a_link" onclick="findId()">FIND PW</a>
+				</form>
+			</div>
+		</aside>
+		<footer>
+			<p>Copyright 2021 SEULGI All right reserved.</p>
+		</footer>
+</body>
+</html>
